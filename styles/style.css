@@ -1,9 +1,11 @@
+/* Light Mode */
 body {
-  color: rgb(228, 70, 30);
+  color: rgb(59, 33, 95);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  height: 100vh;
+  min-height: 100vh;
+
   background: linear-gradient(
-    to bottom, 
+    to bottom,
     rgb(255, 237, 189),
     rgb(240, 234, 190),
     rgb(224, 231, 192),
@@ -17,4 +19,10 @@ body {
     rgb(101, 207, 203),
     rgb(86, 204, 204)
   );
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background: rgb(7, 4, 18);
+  color: aliceblue;
 }
